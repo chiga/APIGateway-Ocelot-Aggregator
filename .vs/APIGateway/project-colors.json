@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fe3f6830-82e2-47d5-bd00-f5fe04e5203d": {
+      "ProjectGuid": "fe3f6830-82e2-47d5-bd00-f5fe04e5203d",
+      "DisplayName": "book",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
