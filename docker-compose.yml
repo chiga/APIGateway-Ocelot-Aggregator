@@ -1,8 +1,21 @@
 version: '3.4'
 
 services:
+
+  book.api:
+    image: ${DOCKER_REGISTRY-}bookapi
+    build:
+      context: .
+      dockerfile: src/book/book/Dockerfile
+
+  price.api:
+    image: ${DOCKER_REGISTRY-}priceapi
+    build:
+      context: .
+      dockerfile: src/price/price/Dockerfile
+
   api-gateway:
     image: ${DOCKER_REGISTRY-}apigateway
     build:
       context: .
-      dockerfile: api-gateway/Dockerfile
+      dockerfile: src/api-gateway/Dockerfile

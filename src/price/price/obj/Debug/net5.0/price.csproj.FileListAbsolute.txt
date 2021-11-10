@@ -11,7 +11,6 @@ C:\dev\APIGateway\src\price\price\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\dev\APIGateway\src\price\price\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\APIGateway\src\price\price\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\APIGateway\src\price\price\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\dev\APIGateway\src\price\price\obj\Debug\net5.0\price.csproj.AssemblyReference.cache
 C:\dev\APIGateway\src\price\price\obj\Debug\net5.0\price.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\APIGateway\src\price\price\obj\Debug\net5.0\price.AssemblyInfoInputs.cache
 C:\dev\APIGateway\src\price\price\obj\Debug\net5.0\price.AssemblyInfo.cs

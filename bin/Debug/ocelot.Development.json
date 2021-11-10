@@ -1,0 +1,46 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/books/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "book.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/books/{id}/details",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Priority": 2,
+      "Key": "Book"
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/booksprices/{id}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "price.api",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/books/{id}/price",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Priority": 1,
+      "Key": "BookPrice"
+    }
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "Book",
+        "BookPrice"
+      ],
+      "UpstreamPathTemplate": "/books/{id}/aggregated-details",
+      "Aggregator": "BookDetailsAggregator"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:7000"
+  }
+}

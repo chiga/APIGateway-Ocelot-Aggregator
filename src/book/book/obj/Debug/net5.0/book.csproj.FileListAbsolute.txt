@@ -11,7 +11,6 @@ C:\dev\APIGateway\src\book\book\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\dev\APIGateway\src\book\book\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\dev\APIGateway\src\book\book\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\dev\APIGateway\src\book\book\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\dev\APIGateway\src\book\book\obj\Debug\net5.0\book.csproj.AssemblyReference.cache
 C:\dev\APIGateway\src\book\book\obj\Debug\net5.0\book.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\APIGateway\src\book\book\obj\Debug\net5.0\book.AssemblyInfoInputs.cache
 C:\dev\APIGateway\src\book\book\obj\Debug\net5.0\book.AssemblyInfo.cs

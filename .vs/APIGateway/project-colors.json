@@ -5,7 +5,52 @@
       "ProjectGuid": "fe3f6830-82e2-47d5-bd00-f5fe04e5203d",
       "DisplayName": "book",
       "ColorIndex": 0
+    },
+    "10c4f6f8-cfad-4086-9379-d314ce0860b8": {
+      "ProjectGuid": "10c4f6f8-cfad-4086-9379-d314ce0860b8",
+      "DisplayName": "book",
+      "ColorIndex": 1
+    },
+    "19bc8536-41d9-41bf-ab37-1ef58848cce5": {
+      "ProjectGuid": "19bc8536-41d9-41bf-ab37-1ef58848cce5",
+      "DisplayName": "book",
+      "ColorIndex": 2
+    },
+    "7b78147b-1e6f-4a3f-ace8-1f080e13ad30": {
+      "ProjectGuid": "7b78147b-1e6f-4a3f-ace8-1f080e13ad30",
+      "DisplayName": "book",
+      "ColorIndex": 3
+    },
+    "35dc28f9-a024-44f4-a36f-1193aafef6c3": {
+      "ProjectGuid": "35dc28f9-a024-44f4-a36f-1193aafef6c3",
+      "DisplayName": "price",
+      "ColorIndex": 4
+    },
+    "7928760f-ad56-420b-85d6-b564c8783a84": {
+      "ProjectGuid": "7928760f-ad56-420b-85d6-b564c8783a84",
+      "DisplayName": "api-gateway",
+      "ColorIndex": 5
+    },
+    "4adf2530-03dd-4aef-b1a8-025594f284c6": {
+      "ProjectGuid": "4adf2530-03dd-4aef-b1a8-025594f284c6",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "94453c2b-edeb-40b6-919c-696606587aa8": {
+      "ProjectGuid": "94453c2b-edeb-40b6-919c-696606587aa8",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 7
+    },
+    "4e724443-f908-4971-810d-763b3bb16257": {
+      "ProjectGuid": "4e724443-f908-4971-810d-763b3bb16257",
+      "DisplayName": "api-gateway",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 9
 }

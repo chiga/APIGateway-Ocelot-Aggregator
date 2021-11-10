@@ -1,13 +1,27 @@
 version: '3.4'
 
 services:
-  api-gateway:
+  book.api:
+    container_name: book.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_URLS=https://+:443;http://+:80
     ports:
-      - "80"
-      - "443"
-    volumes:
-      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
-      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - 8001:80
+  
+  price.api:
+    container_name: price.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - 8002:80
+    
+  api-gateway:
+    container_name: api-service
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - book.api
+    ports:
+      - 7000:80
+   
+      

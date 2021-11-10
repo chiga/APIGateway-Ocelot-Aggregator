@@ -5,6 +5,8 @@
     <UserSecretsId>4cfe5520-2a28-49cf-9671-4e0eaec3a5ef</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..\..</DockerfileContext>
+    <DockerComposeProjectPath>..\..\..\docker-compose.dcproj</DockerComposeProjectPath>
+    <RootNamespace>book</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

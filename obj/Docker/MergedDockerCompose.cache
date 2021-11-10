@@ -2,15 +2,37 @@ services:
   api-gateway:
     build:
       context: C:\dev\APIGateway
-      dockerfile: api-gateway/Dockerfile
+      dockerfile: src/api-gateway/Dockerfile
+    container_name: api-service
+    depends_on:
+      book.api:
+        condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
     image: apigateway
     ports:
-    - target: 80
-    - target: 443
-    volumes:
-    - C:\Users\chiga\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-    - C:\Users\chiga\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - published: 7000
+      target: 80
+  book.api:
+    build:
+      context: C:\dev\APIGateway
+      dockerfile: src/book/book/Dockerfile
+    container_name: book.api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: bookapi
+    ports:
+    - published: 8001
+      target: 80
+  price.api:
+    build:
+      context: C:\dev\APIGateway
+      dockerfile: src/price/price/Dockerfile
+    container_name: price.api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: priceapi
+    ports:
+    - published: 8002
+      target: 80
 version: '3.4'
