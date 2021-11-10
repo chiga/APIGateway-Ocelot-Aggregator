@@ -19,8 +19,6 @@ services:
     container_name: api-service
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-    depends_on:
-      - book.api
     ports:
       - 7000:80
    

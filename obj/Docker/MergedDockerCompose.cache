@@ -4,9 +4,6 @@ services:
       context: C:\dev\APIGateway
       dockerfile: src/api-gateway/Dockerfile
     container_name: api-service
-    depends_on:
-      book.api:
-        condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: apigateway
